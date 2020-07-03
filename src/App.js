@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import Main from './components/Main/Main';
+import IndexPage from './components/IndexPage/IndexPage';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='App'>
-      <Main></Main>
-    </div>
+    <Router>
+      <div className='App'>
+        <IndexPage></IndexPage>
+      </div>
+    </Router>
   );
 }
 

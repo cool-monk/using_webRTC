@@ -5,6 +5,10 @@
   flex: 1 1 0px;
 }
 
+.menuLink {
+  width: 100%;
+}
+
 .menuButton {
   width: 100%;
   height: 50px;
