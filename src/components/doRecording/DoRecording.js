@@ -3,6 +3,7 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import StartRecord from '@material-ui/icons/FiberManualRecord';
 import StopIcon from '@material-ui/icons/Stop';
+import RecordCamera from '../../subcomponents/RecordCamera';
 
 function DoRecording() {
   return (
@@ -25,6 +26,7 @@ function DoRecording() {
           Stop Recording
         </Button>
       </div>
+      <RecordCamera></RecordCamera>
     </React.Fragment>
   );
 }

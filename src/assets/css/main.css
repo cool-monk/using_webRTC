@@ -37,3 +37,18 @@
   text-align: center;
   margin-top: auto;
 }
+
+/* Video recording parts */
+.videoPlayers {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .cameraRecording {
+  width: 50%;
+}
+
+.screenRecording {
+  width: 50%;
+} */

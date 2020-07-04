@@ -8,7 +8,7 @@ function IndexPage() {
   return (
     <React.Fragment>
       <div className='brandLogo'>
-        <img src={require('../../assets/img/logo.png')}></img>
+        <img src={require('../../assets/img/logo.png')} alt='Brand Logo'></img>
       </div>
       <Menu></Menu>
       <Main></Main>
